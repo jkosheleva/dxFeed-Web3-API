@@ -6,7 +6,8 @@ dxFeed API provides crypto and Forex market data directly from exchanges.
 
 **Home Page:** https://tools.dxfeed.com/webservice/rest-demo.jsp 
 
-**Web2 Docs:** https://kb.dxfeed.com/en/data-access/rest-api.html
+**Web2 Docs:** https://kb.dxfeed.com/en/data-access/rest-api.html![Scanner Queries (sorters)](https://user-images.githubusercontent.com/94646073/143014940-6e52672c-6269-4a4b-a5a7-50d4789db241.png)
+
 
 ## Call this Airnode API
 
@@ -39,6 +40,9 @@ You'll need the **Endpoint ID** to call this endpoint.
 
 **Endpoint ID:** 0x4903a994f440e0bf4c4389832e18f7cff6ead57195b5f50a4cab92369b4621f4
 
+
+[List of Available Symbols](https://downloads.dxfeed.com/specifications/symbols.txt)
+
 [Request Parameters](https://docs.api3.org/airnode/pre-alpha/protocols/request-response/request.html#request-parameters)
 
 ````solidity
@@ -49,18 +53,15 @@ source
 symbol		
 timeout		
 toTime		
-```[Fixed Parameters](https://docs.api3.org/pre-alpha/airnode/specifications/ois.html#_5-3-fixedoperationparameters)
+````
 
-```solidity
-format = 'json';		// The format parameter is fixed to json
+[Fixed Parameters](https://docs.api3.org/pre-alpha/airnode/specifications/ois.html#_5-3-fixedoperationparameters)
+
+
+````solidity
+format = 'json'
 ````
 
 [Response](https://docs.api3.org/pre-alpha/airnode/specifications/reserved-parameters.html#path)
-
-**List of available symbols:** https://downloads.dxfeed.com/specifications/symbols.txt
-
-```json
-{ Add example response json here }
-```
 
 ---
