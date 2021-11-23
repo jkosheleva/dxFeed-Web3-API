@@ -6,7 +6,7 @@ dxFeed API provides crypto and Forex market data directly from exchanges.
 
 **Home Page:** https://tools.dxfeed.com/webservice/rest-demo.jsp 
 
-**Web2 Docs:** https://kb.dxfeed.com/en/data-access/rest-api.html![Scanner Queries (sorters)](https://user-images.githubusercontent.com/94646073/143014940-6e52672c-6269-4a4b-a5a7-50d4789db241.png)
+**Web2 Docs:** https://kb.dxfeed.com/en/data-access/rest-api.htm
 
 
 ## Call this Airnode API
