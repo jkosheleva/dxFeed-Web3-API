@@ -1,12 +1,13 @@
-# dxFeed-Web3-API
-# How to use dxFeed on Web3
+# How to use DxFeed on Web3
 
 > [Airnode](https://api3.org/airnode) API Documentation
 
-{{ Give an overview of the API. Describe what it does. }}
+dxFeed API provides crypto and Forex market data directly from exchanges.
 
-**Home Page:** {{ URL to API home page }}  
-**Web2 Docs:** {{ URL to API documentation }}
+**Home Page:** https://tools.dxfeed.com/webservice/rest-demo.jsp 
+
+**Web2 Docs:** https://kb.dxfeed.com/en/data-access/rest-api.html![Scanner Queries (sorters)](https://user-images.githubusercontent.com/94646073/143014940-6e52672c-6269-4a4b-a5a7-50d4789db241.png)
+
 
 ## Call this Airnode API
 
@@ -35,34 +36,32 @@ Read the [Airnode developer documentation](https://docs.api3.org/d/call-an-airno
 
 ## GET /events.json <a name="0x4903a994f440e0bf4c4389832e18f7cff6ead57195b5f50a4cab92369b4621f4"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
-
-**Web2 Docs:** {{ URL to endpoint documentation }}
-
 You'll need the **Endpoint ID** to call this endpoint.
 
 **Endpoint ID:** 0x4903a994f440e0bf4c4389832e18f7cff6ead57195b5f50a4cab92369b4621f4
 
-[Request Parameters](https://docs.api3.org/pre-alpha/protocols/request-response/request.html#request-parameters)
+
+[List of Available Symbols](https://downloads.dxfeed.com/specifications/symbols.txt)
+
+[Request Parameters](https://docs.api3.org/airnode/pre-alpha/protocols/request-response/request.html#request-parameters)
 
 ````solidity
-event		// Parameter Description...
-fromTime		// Parameter Description...
-indent		// Parameter Description...
-source		// Parameter Description...
-symbol		// Parameter Description...
-timeout		// Parameter Description...
-toTime		// Parameter Description...
-```[Fixed Parameters](https://docs.api3.org/pre-alpha/airnode/specifications/ois.html#_5-3-fixedoperationparameters)
+event		
+fromTime		
+indent		
+source		
+symbol		
+timeout		
+toTime		
+````
 
-```solidity
-format = 'json';		// The format parameter is fixed to json
+[Fixed Parameters](https://docs.api3.org/pre-alpha/airnode/specifications/ois.html#_5-3-fixedoperationparameters)
+
+
+````solidity
+format = 'json'
 ````
 
 [Response](https://docs.api3.org/pre-alpha/airnode/specifications/reserved-parameters.html#path)
-
-```json
-{ Add example response json here }
-```
 
 ---
