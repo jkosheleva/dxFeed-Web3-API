@@ -1,4 +1,4 @@
-# How to use DxFeed on Web3
+# How to use dxFeed on Web3
 
 > [Airnode](https://api3.org/airnode) API Documentation
 
